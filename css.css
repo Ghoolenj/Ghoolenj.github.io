@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    text-align: center;
+    direction: rtl;
+  }
+  .top,.bottom{
+    background: #333333;
+    color: #ffffff;
+    padding: 15px;
+  }
+  h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .middle{
+    background: #ffffff;
+    min-height: 90vh;
+  }
+  .post{
+    text-align: right;
+    background: #eeeeee;
+    padding: 15px;
+    margin-top: 15px;
+    height: auto;
+  }
