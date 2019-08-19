@@ -1,32 +1,40 @@
+  
+@font-face {
+    font-family: 'AdobeArabic-Regular';
+    src: url('https://ghoolenj.github.io/fonts/AdobeArabic-Regular.eot?#iefix') format('embedded-opentype'),  url('https://ghoolenj.github.io/fonts/AdobeArabic-Regular.woff') format('woff'), url('https://ghoolenj.github.io/fonts/AdobeArabic-Regular.ttf')  format('truetype'), url('https://ghoolenj.github.io/fonts/AdobeArabic-Regular.svg#AdobeArabic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body{
+}
+body{
     text-align: center;
     direction: rtl;
-  }
-  .top,.bottom{
+    font-family: 'AdobeArabic-Regular';
+}
+.top,.bottom{
     background: #333333;
     color: #ffffff;
     padding: 15px;
-  }
-  h1{
+}
+h1{
     font-size: 48px;
     margin-bottom: 20px;
-  }
-  h2{
+}
+h2{
     font-size: 20px;
-  }
-  .middle{
+}
+.middle{
     background: #ffffff;
     min-height: 90vh;
-  }
-  .post{
+}
+.post{
     text-align: right;
     background: #eeeeee;
     padding: 15px;
     margin-top: 15px;
     height: auto;
-  }
+}
